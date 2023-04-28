@@ -1,0 +1,94 @@
+.cardCounter{
+    margin: 3%;
+    border: 1px gray solid;
+    border-radius: 20px;
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+    padding: 25px;
+
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+
+.handleCounter{
+    background-color: #6930C3;
+    color: white;
+    border: 0;
+    cursor: pointer;
+
+    margin: 5px;
+    padding: 5px;
+    font-size: 28px;
+    font-weight:400;
+}
+
+.handleCounter:hover{
+    color: #37E2D5;
+}
+
+.cardCounter input{
+    text-align: center;
+    font-size: 15px;
+}
+
+.addToCart{
+    font-size: 15px;
+    text-align: center;
+    font-size: 28px;
+    font-weight:400;
+    color: white;
+    
+    border: 0;
+    margin: 5px;
+    padding: 5px;
+    
+    background-color: #6930C3;
+    
+    z-index: 1;
+    position: relative;
+    cursor: pointer;
+}
+
+.addToCart:hover{
+    transition: all 0.3s ease-out;
+    color: black;
+    
+}
+
+.addToCart::after{
+    content: "";
+    position: absolute;
+    
+    width: 100%;
+    height: 2.5rem;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    background-color: #37E2D5;
+    
+    transform-origin: bottom left;
+    transition: all 0.3s ease-in-out;
+    transform: scaleX(0);
+    
+    
+   
+}
+
+.addToCart:hover::after{
+   
+    transform: scaleX(1);
+
+}
+
+
+@media all and (max-width: 425px){
+    .cardCounter{
+        border: 0;
+        padding: 0;
+
+    }
+
+
+}

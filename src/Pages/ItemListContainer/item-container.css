@@ -1,0 +1,15 @@
+.item-list{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    
+    min-height: 100vh;
+    padding: 0 6%;
+    
+    background-image: url("../../Media/side-wave_background.svg");
+    background-position: center;
+    
+}
+

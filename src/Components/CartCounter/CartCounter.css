@@ -1,0 +1,21 @@
+.cart-counter{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    width: 2rem;
+    height: 2rem;
+    padding: 5px;
+    
+    font-size: 22px;
+    font-weight: bold;
+    background-color: orange;
+
+    border-radius: 50%;
+}
+
+.cart-counter-button{
+    box-shadow: 0 4px 8px 0 rgba(27, 26, 26, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.466); 
+    cursor: pointer;
+}
+

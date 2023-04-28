@@ -1,0 +1,26 @@
+.cartIcon{
+    display: flex;
+    align-items: center;
+    font-size: 40px;
+    
+}
+
+a{
+    color: white;
+}
+
+.cart-bubble{
+    position: relative;
+    bottom: 20%;
+    right: 24%;
+}
+
+
+@media all and (max-width: 425px){
+    .cartIcon{
+        font-size: 2rem;
+        
+    }
+
+
+}
