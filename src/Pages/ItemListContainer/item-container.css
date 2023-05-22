@@ -8,8 +8,23 @@
     min-height: 100vh;
     padding: 0 6%;
     
-    background-image: url("../../Media/side-wave_background.svg");
-    background-position: center;
+    background:-moz-linear-gradient(0deg, rgba(105, 48, 195, 1) 0%, rgba(37, 37, 37, 1) 72%); 
+
+    /* safari 5.1+,chrome 10+ */
+    background:-webkit-linear-gradient(0deg, rgba(105, 48, 195, 1) 0%, rgba(37, 37, 37, 1) 72%);
+
+    /* opera 11.10+ */
+    background:-o-linear-gradient(0deg, rgba(105, 48, 195, 1) 0%, rgba(37, 37, 37, 1) 72%);
+
+    /* ie 6-9 */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#6930C3', endColorstr='#252525', GradientType=1 );
+
+    /* ie 10+ */
+    background:-ms-linear-gradient(0deg, rgba(105, 48, 195, 1) 0%, rgba(37, 37, 37, 1) 72%);
+
+    /* global 94%+ browsers support */
+    background:linear-gradient(0deg, rgba(105, 48, 195, 1) 0%, rgba(37, 37, 37, 1) 72%);
+
     
 }
 

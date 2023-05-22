@@ -15,9 +15,9 @@
 }
 
 .card-img{
-    max-height: 260px;
-    max-width: 260px;
-    object-fit: contain;
+    height: 260px;
+    width: 260px;
+    object-fit: fill;
 }
 
 .content{
